@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device_width, intial-scale=1.0">
+        <title>student form</title>
+        <link rel="stylesheet" href="formstyle.css">
+        
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+        <div>
+        <h1><center>Student Details</center></h1>
+        <form class="name">
+         <div>
+             <h3><center style="color:rgb(100, 237, 100)"><b>Personal Details</b></center></h3>
+            <label for="fname" class="required">First Name:</label>
+            <input type="text" id="fname" placeholder="First Name" name="First Name"required>
+            <label for="lname" class="required">Last Name:</label>
+            <input type="text" id="lname" placeholder="Last Name" name="Last Name"required><br>
+            <h4><u>Current Address</u></h4>    
+            <label for="address" class="required">Address:</label>  
+            <input type="text" id="address" placeholder="address" name="address" maxlenght="50" required><br><br>
+            <label for="address" class="required">City: </label>    
+            <select value="city" id="city" required>
+                <option value="select">select</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Banglore">Banglore</option>
+                <option value="chennai">chennai</option>
+                <option value="Rayachoti">Rayachoti</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kadapa">Kadapa</option>
+            </select>
+            <label for="address" class="required">State: </label> 
+            <select name="state" id="state" required>
+                <option value="select">select</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="West Bengal">West Bengal</option>
+                
+            </select> <br><br>
+            <h4><u>Permanent Address</u></h4>  
+            <label value="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="address" maxlength="50"><br><br> 
+            <label for="address">City:</label>    
+            <select name="city" id="city">
+                <option value="select">select</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Banglore">Banglore</option>
+                <option value="chennai">chennai</option>
+                <option value="Rayachoti">Rayachoti</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kadapa">Kadapa</option>
+            </select>
+            <label for="address">State:</label> 
+            <select value="state" id="state" >
+                <option value="select">select</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="West Bengal">West Bengal</option>
+                
+            </select> <br><br>
+            <label for="gender" class="required">Gender:</label>
+           <div>
+            <label for="gender">male</label>
+            <input type="radio" name="gender" value="male"required>
+            <label for="gender">female</label>
+            <input type="radio" name="gender" value="female" required>
+            <label for="gender">other</label>
+            <input type="radio" name="gender" value="other" required>
+            </div><br>
+            <label for="country" class="required">contact:</label>
+            <select value="country" id="country" required>
+                <option value="select">   </option>
+                <option value="USA:+1">+1</option>
+                <option value="Afghanistan:+93">+93</option>
+                <option value="Albania:+355">+355</option>
+                <option value="Aruba:+297">+297</option>
+                <option value="Australia:+61">+61</option>
+                <option value="Belgium:+32">+32</option>
+                <option value="Brazil:+55">+55</option>
+                <option value="Canada:+1">+1</option>
+                <option value="China:+86">+86</option>
+                <option value="Colombia:+57">+57</option>
+                <option value="Denmark:+45">+45</option>
+                <option value="Egypt:+593">+593</option>
+                <option value="France:+689">+689</option>
+                <option value="Greenland:+299">+299</option> 
+                <option value="Hong Kong:+852">+852</option> 
+                <option value="India:+91">+91</option> 
+                <option value="Iran:+98">+98</option>
+                <option value="Japan:+81">+81</option>
+                <option value="Korea,North:+850">+850</option>
+                <option value="Laos:+856">+856</option>
+                <option value="Malasia:+60">+60</option>
+            </select>
+            <input type="tel" id="phone" placeholder="10-digit" pattern="[0-9]{10}"maxlength="10" required>
+            <label>Alter no.:</label>
+            <select value="country" id="country">
+                <option value="select">   </option>
+                <option value="USA:+1">+1</option>
+                <option value="Afghanistan:+93">+93</option>
+                <option value="Albania:+355">+355</option>
+                <option value="Aruba:+297">+297</option>
+                <option value="Australia:+61">+61</option>
+                <option value="Belgium:+32">+32</option>
+                <option value="Brazil:+55">+55</option>
+                <option value="Canada:+1">+1</option>
+                <option value="China:+86">+86</option>
+                <option value="Colombia:+57">+57</option>
+                <option value="Denmark:+45">+45</option>
+                <option value="Egypt:+593">+593</option>
+                <option value="France:+689">+689</option>
+                <option value="Greenland:+299">+299</option> 
+                <option value="Hong Kong:+852">+852</option> 
+                <option value="India:+91">+91</option> 
+                <option value="Iran:+98">+98</option>
+                <option value="Japan:+81">+81</option>
+                <option value="Korea,North:+850">+850</option>
+                <option value="Laos:+856">+856</option>
+                <option value="Malasia:+60">+60</option>
+            </select>
+            <input type="tel" id="phone" placeholder="10-digit" pattern="[0-9]{10}" maxlength="10"><br><br>
+        </div>
+        <div class="education">
+            <h3><center style="color:rgb(100, 237, 130)"><b>Education Details</b></center></h3>
+            <label for="fname" class="required">Full Name:</label>
+            <input type="text" id="fname" placeholder="Full Name" name="Full Name"required><br><br>
+            <label for="reg" class="required">Register Number:</label>
+            <input type="text" id="reg" placeholder="Register Number" required><br> <br>
+            <label for="email" class="required">E-Mail:</label>
+            <input type="email" id="email" placeholder="e-mail" name="e-mail" required>
+            <label for="college" class="required">Institute: </label>
+            <input type="text" id="college" name="college" placeholder="college name" required><br><br>
+            <label for="course" class="required">Course:</label> 
+            <select value="course" id="course" placeholder="eg.B.Tech" required>
+                <option> eg.B.Tech </option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="B.Com">B.Com</option>
+                <option value="Bsc">Bsc</option>
+                <option value="M.Tech">M.Tech</option>
+            </select><br><br>
+            <label for="branch" class="required">Branch:</label>
+            <input type="text" id="branch" name="branch" placeholder="eg.Computer Science" required><br><br>
+            <label for="Year" class="required">Year of passed out: </label>
+            <input type="date" id="Year" name="Year" placeholder="dd/mm/yyyy" required><br><br>
+        </div>
+        <h4><button id="submit">submit</button></h4>
+       </form><br><br>
+          </div>
+   
+    </body>
+</html>

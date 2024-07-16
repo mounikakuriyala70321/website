@@ -1,0 +1,80 @@
+body{
+    margin: 10px 40px 20px 40px;
+   
+    background-color: aquamarine;
+     
+    
+}
+#logo{
+    width:"30px";
+    height:"30px";
+    border: 20px none white;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    border-radius: 50%;
+    object-fit:fill;
+    opacity: 0.5;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+
+}
+.name{
+    font-size: 100px;
+    color:rgb(187, 44, 151);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.image_container{
+    margin-left: 30px;
+}
+
+div > img{
+    width:"30px";
+    height:"30px"; 
+    border: 10px groove white;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    object-fit: contain;
+   
+}
+#bro{
+    border: 10px groove white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px;
+    margin-left: 40%;
+}
+.details{
+    border: 1px solid aquamarine;
+    width: 200px;
+    margin-left: 10%;
+    padding: 2px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 70px;
+}
+p > b{   
+      
+    padding-left: 80%;
+    padding-bottom: 50%;
+    font-weight: bold;
+}
+#form{
+    font-weight: bolder;
+    padding-left: 70%;
+    
+    
+    
+}
+.details:hover{
+        background-color: brown;
+}
+

@@ -1,0 +1,17 @@
+body{
+    background:linear-gradient(rgb(197, 60, 60),rgb(95, 197, 32));
+    margin: 100px;
+   border: 5px green solid;
+.content{
+    margin: 100px;
+}
+ 
+}
+p{
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(55, 11, 230);
+ font-size: 20px;
+}
+
+ 
+
